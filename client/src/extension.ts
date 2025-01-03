@@ -31,7 +31,7 @@ class API {
     return client;
   }
   getContexts() {
-    return client.sendRequest("devicetree/getContexts");
+    return client.sendRequest("devicetree/contexts");
   }
 }
 
